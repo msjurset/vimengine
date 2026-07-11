@@ -13,7 +13,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/msjurseth/vimengine"
+	"github.com/msjurset/vimengine"
 )
 
 // 1. Wrap your underlying text component
@@ -111,7 +111,7 @@ For example:
 ```makefile
 update-vim:
 	@echo "Updating vimengine to the latest version..."
-	go get github.com/msjurseth/vimengine@latest
+	go get github.com/msjurset/vimengine@latest
 	go mod tidy
 	@echo "Smoke test vim mode (ctrl+o, i, Esc, dd), then commit."
 ```

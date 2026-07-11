@@ -1,5 +1,5 @@
 vimengine
-Copyright (c) 2026 msjurseth
+Copyright (c) 2026 msjurset
 
 This project contains no third-party dependencies or external code. 
 All code is written purely utilizing the Go standard library.
