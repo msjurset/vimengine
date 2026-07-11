@@ -503,8 +503,10 @@ func (e *Engine) handleNormalMode(key Key, editor Editor) bool {
 			e.applyOperator(editor, e.operator, rng)
 			e.resetParser()
 			return true
-		} else if newPos != start {
-			editor.SetSelectedRange(newPos, newPos)
+		} else {
+			if newPos != start {
+				editor.SetSelectedRange(newPos, newPos)
+			}
 			e.resetParser()
 			return true
 		}
