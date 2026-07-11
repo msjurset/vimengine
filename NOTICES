@@ -1,0 +1,8 @@
+vimengine
+Copyright (c) 2026 msjurseth
+
+This project contains no third-party dependencies or external code. 
+All code is written purely utilizing the Go standard library.
+
+If third-party open-source components are introduced in the future, 
+their respective licenses and attributions will be documented here.
